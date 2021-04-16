@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10587ECF2629E0E700A813AC /* libarchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10587ECE2629E0C900A813AC /* libarchive.a */; };
 		10587ED22629E17A00A813AC /* LAWArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BDBB6C2628EA6C003729E8 /* LAWArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10587ED72629E18300A813AC /* LAWArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BDBB712628EABA003729E8 /* LAWArchiveEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10587EDC2629E18C00A813AC /* ExtractionOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BDBB722628EAD4003729E8 /* ExtractionOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10587ECE2629E0C900A813AC /* libarchive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libarchive.a; path = "../../LAWrapper/libarchive-static-lib/libarchive.a"; sourceTree = "<group>"; };
 		10BDBB4C2628E9FC003729E8 /* LAWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LAWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BDBB4F2628E9FC003729E8 /* LAWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAWrapper.h; sourceTree = "<group>"; };
 		10BDBB502628E9FC003729E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10587ECF2629E0E700A813AC /* libarchive.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +65,6 @@
 		10587ECD2629E0C900A813AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10587ECE2629E0C900A813AC /* libarchive.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
