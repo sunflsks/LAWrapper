@@ -9,6 +9,7 @@
 @property (readwrite, assign) BOOL keepTime;
 @property (readwrite, assign) BOOL unlinkBeforeCreate;
 @property (readwrite, assign) BOOL keepXattrs;
+@property (nonatomic) NSString* passphrase;
 + (instancetype)defaultFlags;
 - (int)flagValue;
 @end

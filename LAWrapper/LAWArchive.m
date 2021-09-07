@@ -57,6 +57,10 @@
 
     out = archive_write_disk_new();
     archive_write_disk_set_options(out, [options flagValue]);
+
+    if (options.passphrase || [options.passphrase length] > 0)
+        archive_read_add_passphrase(out, options.passphrase.UTF8String);
+
     archive_write_disk_set_standard_lookup(out);
 
     while (true) {
